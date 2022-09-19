@@ -1,0 +1,31 @@
+HOW TO UPDATE MODEL NUMBER
+
+ 1. Make sure that a system main battery is fully charged and AC power is
+    attached. On tablet system, attach an external keyboard.
+ 2. Make sure to be logged on with an administrator account on the target
+    computer.
+ 3. Locate the file that was downloaded and double-click it.
+ 4. Follow the instructions on the screen.
+ 5. In Extract or Install? window, select "Extract only" and click Next to extract and keep the files
+    on the specified folder.
+ 6. In the Select Destination Location window, click Extract. If you would like to
+    select a different folder, click Browse.
+ 7. All the necessary files will be extracted to the folder selected in the step 10.
+ 8. Click Finish.
+ 9. Open command prompt or Windows PowerShell with administrator right, 
+    then move to a directory of this package.
+10. Start the following command.
+     "WINUPTP.EXE -m xxxxxx" (xxxxxx is Model number)  : Update model number to xxxxxx
+     "WINUPTP.EXE -m"                                  : Update model number to Default value
+11. Follow the instruction in the screen.
+
+
+HOW TO UPDATE MODEL NUMBER WITHOUT GUI (SILENT UPDATE)
+
+ 1. Refer to the "HOW TO UPDATE MODEL NUMBER" Section 1 to 8.
+ 2. Open command prompt or Windows PowerShell with administrator right, 
+    then move to a directory of this package.
+ 3. Start the following command.
+     "WINUPTP.EXE -m xxxxxx -s" (xxxxxx is Model number)  : Update model number to xxxxxx
+     "WINUPTP.EXE -m -s"                                  : Update model number to Default value
+ 4. Please execute Shutdown or Restart after an end of command.
