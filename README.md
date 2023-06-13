@@ -1,2 +1,16 @@
 # Intune-BIOS-Update
- Update bios using Intune
+
+This PowerShell script is used to deploy and update the BIOS on Lenovo computers through Microsoft Intune.
+
+## Prerequisites
+
+- Intune/MECM
+- Lenovo Computer
+
+## Usage
+
+1. Run the script using the following command:
+
+   ```powershell
+   PowerShell.exe -ExecutionPolicy Bypass -File ".\BIOSUpdate.ps1"
+
