@@ -12,5 +12,5 @@ This PowerShell script is used to deploy and update the BIOS on Lenovo computers
 1. Run the script using the following command:
 
    ```powershell
-   PowerShell.exe -ExecutionPolicy Bypass -File ".\BIOSUpdate.ps1"
+   Deploy-Application.exe -DeploymentType “Install”
 
